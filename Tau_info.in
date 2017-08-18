@@ -22,7 +22,7 @@ GenMatchingDeltaR 0.3
 //RECO CUTS///
 
 EtaCut 2.1
-PtCut 20.0 40.0
+PtCut 20.0 9999.9
 
 DoDiscrByLeadTrack false
 LeadTrackThreshold 3.0
@@ -60,7 +60,7 @@ DiscrByMetDphi false
 MetDphiCut 1.3 3.15
 
 DiscrByMetMt true
-MetMtCut  110.0 999.9
+MetMtCut  0.0 9999.9
 
 /////////////////////////////
              Tau2
@@ -69,7 +69,7 @@ MetMtCut  110.0 999.9
 //----RECO CUTS----////
 
 EtaCut 2.1
-PtCut 20.0 40.0
+PtCut 20.0  9999.9
 
 DoDiscrByLeadTrack 0
 LeadTrackThreshold 5.0
@@ -106,5 +106,5 @@ DiscrByMetDphi 0
 MetDphiCut 1.30   3.15
 
 DiscrByMetMt 1
-MetMtCut   110.0 999.9
+MetMtCut   0.0 9999.9
 

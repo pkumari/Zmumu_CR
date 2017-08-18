@@ -2,7 +2,7 @@
                 Run
 ####################################
 
-CalculatePUSystematics true
+CalculatePUSystematics false
 DataHistos data_75bins_69200.root
 MCHistos MC_75bins.root
 //DataPUHistName NVertices_0
@@ -11,8 +11,8 @@ MCHistos MC_75bins.root
 DataPUHistName pileup
 MCPUHistName pileup
 
-isData false
-ApplyGenWeight true
+isData true
+ApplyGenWeight false
 
 ///------Triggers-----///
 
@@ -42,6 +42,6 @@ HtCut 30.0
 
 JetPtForMhtAndHt 30.0        
 JetEtaForMhtAndHt 5.0        
-ApplyJetLooseIDforMhtAndHt false
+ApplyJetLooseIDforMhtAndHt true
 
 

@@ -2,7 +2,7 @@
             Smear
 /////////////////////////////////
 
-SmearTheParticle 0
+SmearTheParticle 1
 PtScaleOffset 1.
 PtSigmaOffset 1.
 EtaScaleOffset 1.
